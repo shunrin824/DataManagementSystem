@@ -1,0 +1,119 @@
+body {
+    word-wrap: break-word;
+}
+
+.box {
+    border: 2px solid #400000;
+}
+
+.cnt {
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.fsc {
+    max-width: 600px;
+    max-height: 338px;
+    padding: 0px;
+    margin: 1px;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+header {
+    background: #400000;
+    max-width: 2000px;
+    color: #f6e2e8;
+}
+
+header a:visited {
+    color: #f6e2e8;
+}
+
+header a {
+    color: #f6e2e8;
+}
+
+.container {
+    display: flex;
+}
+
+.main {
+    width: 100%;
+    color: #400000;
+    background: #f6e2e8;
+    border-top: solid 3px #f6e2e8;
+    border-bottom: solid 3px #f6e2e8;
+    border-right: solid 3px #f6e2e8;
+    padding: 20px;
+}
+
+.main a {
+    color: #400000;
+}
+
+.main a:visited {
+    color: #400000;
+}
+
+.side {
+    width: 300px;
+    min-width: 300px;
+    padding: 20px;
+    background: #f6e2e8;
+    color: #400000;
+
+}
+
+footer {
+    background: #400000;
+    color: #f6e2e8;
+}
+
+.ViewImage {
+    max-width: 100%;
+    max-height: 640px;
+    float: left;
+}
+
+@media(max-width:1400px) {
+    .viewmedia {
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .main,
+    .side {
+        width: 100%;
+    }
+
+    .viewmedia {
+        width: 100%;
+    }
+}
+
+img {
+    max-width: 100%;
+    max-height: 720px;
+    height: auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}

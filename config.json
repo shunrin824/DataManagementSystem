@@ -1,0 +1,21 @@
+{
+	"NumberOfDisplays0": "50",
+	"NumberOfDisplays1": "100",
+	"NumberOfDisplays2": "200",
+	"NumberOfDisplays3": "500",
+	"NumberOfDisplays4": "10000",
+	"HideWord": [
+		"えっち",
+		"非表示"
+	],
+	"MovieFolder": "movie",
+	"SmallMovieFolder": "smovie",
+	"BeforeEncodeMovieFolder": "rawmovie",
+	"SoundFolder": "sound",
+	"SmallSoundFolder": "ssound",
+	"BeforeEncodeSoundFolder": "rawsound",
+	"PngFolder": "webp",
+	"WebpFolder": "webp",
+	"PictureFolder": "webp",
+	"SmallPictureFolder": "s"
+}
